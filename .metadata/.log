@@ -1,0 +1,189 @@
+!SESSION 2015-07-22 10:35:52.272 -----------------------------------------------
+eclipse.buildId=4.5.0.I20150603-2000
+java.version=1.8.0_25
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ja_JP
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2015-07-22 10:36:10.448
+!MESSAGE Unable to acquire PluginConverter service during generation for: C:\app\pleiades\eclipse\dropins\AmaterasERD.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2015-07-22 10:36:10.650
+!MESSAGE Unable to acquire PluginConverter service during generation for: C:\app\pleiades\eclipse\dropins\AmaterasStepCounter.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2015-07-22 10:36:10.753
+!MESSAGE Unable to acquire PluginConverter service during generation for: C:\app\pleiades\eclipse\dropins\AmaterasUML.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2015-07-22 10:36:10.914
+!MESSAGE Unable to acquire PluginConverter service during generation for: C:\app\pleiades\eclipse\dropins\AnyEditTools.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2015-07-22 10:36:11.021
+!MESSAGE Unable to acquire PluginConverter service during generation for: C:\app\pleiades\eclipse\dropins\Buildship.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2015-07-22 10:36:11.277
+!MESSAGE Unable to acquire PluginConverter service during generation for: C:\app\pleiades\eclipse\dropins\CheckStyle.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2015-07-22 10:36:11.476
+!MESSAGE Unable to acquire PluginConverter service during generation for: C:\app\pleiades\eclipse\dropins\CheckStyle\eclipse\features\net.sf.eclipsecs_6.5.0.201504121610.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2015-07-22 10:36:11.515
+!MESSAGE Unable to acquire PluginConverter service during generation for: C:\app\pleiades\eclipse\dropins\CheckStyle\eclipse\features\net.sf.eclipsecs_6.5.0.201504121610.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2015-07-22 10:36:11.527
+!MESSAGE Unable to acquire PluginConverter service during generation for: C:\app\pleiades\eclipse\dropins\DBViewer.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2015-07-22 10:36:11.629
+!MESSAGE Unable to acquire PluginConverter service during generation for: C:\app\pleiades\eclipse\dropins\Eclipse2.0StylePluginSupport.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2015-07-22 10:36:11.711
+!MESSAGE Unable to acquire PluginConverter service during generation for: C:\app\pleiades\eclipse\dropins\EclipseColorTheme.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2015-07-22 10:36:11.739
+!MESSAGE Unable to acquire PluginConverter service during generation for: C:\app\pleiades\eclipse\dropins\EclipseColorTheme\eclipse\features\com.github.eclipsecolortheme.feature_1.0.0.201410260308.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2015-07-22 10:36:11.766
+!MESSAGE Unable to acquire PluginConverter service during generation for: C:\app\pleiades\eclipse\dropins\EclipseColorTheme\eclipse\features\com.github.eclipsecolortheme.feature_1.0.0.201410260308.jar.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2015-07-22 10:36:11.778
+!MESSAGE Unable to acquire PluginConverter service during generation for: C:\app\pleiades\eclipse\dropins\EclipseCPP.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2015-07-22 10:36:13.287
+!MESSAGE Unable to acquire PluginConverter service during generation for: C:\app\pleiades\eclipse\dropins\EclipseRCP.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2015-07-22 10:36:14.893
+!MESSAGE Unable to acquire PluginConverter service during generation for: C:\app\pleiades\eclipse\dropins\EclipseRunner.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2015-07-22 10:36:14.935
+!MESSAGE Unable to acquire PluginConverter service during generation for: C:\app\pleiades\eclipse\dropins\FindBugs.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2015-07-22 10:36:14.998
+!MESSAGE Unable to acquire PluginConverter service during generation for: C:\app\pleiades\eclipse\dropins\Glance.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2015-07-22 10:36:15.066
+!MESSAGE Unable to acquire PluginConverter service during generation for: C:\app\pleiades\eclipse\dropins\JadClipse.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2015-07-22 10:36:15.170
+!MESSAGE Unable to acquire PluginConverter service during generation for: C:\app\pleiades\eclipse\dropins\Limy.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2015-07-22 10:36:15.242
+!MESSAGE Unable to acquire PluginConverter service during generation for: C:\app\pleiades\eclipse\dropins\M2E-APT.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2015-07-22 10:36:15.302
+!MESSAGE Unable to acquire PluginConverter service during generation for: C:\app\pleiades\eclipse\dropins\MergeDoc.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2015-07-22 10:36:15.372
+!MESSAGE Unable to acquire PluginConverter service during generation for: C:\app\pleiades\eclipse\dropins\NTail.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2015-07-22 10:36:15.422
+!MESSAGE Unable to acquire PluginConverter service during generation for: C:\app\pleiades\eclipse\dropins\OpenExternal.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2015-07-22 10:36:15.470
+!MESSAGE Unable to acquire PluginConverter service during generation for: C:\app\pleiades\eclipse\dropins\PDT.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2015-07-22 10:36:16.050
+!MESSAGE Unable to acquire PluginConverter service during generation for: C:\app\pleiades\eclipse\dropins\PyDev.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2015-07-22 10:36:16.130
+!MESSAGE Unable to acquire PluginConverter service during generation for: C:\app\pleiades\eclipse\dropins\QuickJUnit.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2015-07-22 10:36:16.222
+!MESSAGE Unable to acquire PluginConverter service during generation for: C:\app\pleiades\eclipse\dropins\QuickREx.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2015-07-22 10:36:16.305
+!MESSAGE Unable to acquire PluginConverter service during generation for: C:\app\pleiades\eclipse\dropins\Subversive.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2015-07-22 10:36:16.540
+!MESSAGE Unable to acquire PluginConverter service during generation for: C:\app\pleiades\eclipse\dropins\SubversiveJDT.
+
+!ENTRY org.eclipse.equinox.p2.publisher.eclipse 4 0 2015-07-22 10:36:16.599
+!MESSAGE Unable to acquire PluginConverter service during generation for: C:\app\pleiades\eclipse\dropins\TomcatLauncher.
+
+!ENTRY org.eclipse.php.debug.core 4 4 2015-07-22 12:06:10.943
+!MESSAGE Could not obtain PHP executable info.
+!STACK 0
+org.eclipse.php.internal.debug.core.PHPExeException: Invalid PHP executable: C:\app\pleiades\xampp\php\php.exe.
+	at org.eclipse.php.internal.debug.core.PHPExeUtil.getPHPInfo(PHPExeUtil.java:203)
+	at org.eclipse.php.internal.debug.core.preferences.PHPexeItem.detectFromPHPExe(PHPexeItem.java:128)
+	at org.eclipse.php.internal.debug.core.preferences.PHPexeItem.<init>(PHPexeItem.java:114)
+	at org.eclipse.php.internal.debug.core.preferences.PHPexes.load(PHPexes.java:513)
+	at org.eclipse.php.internal.debug.core.preferences.PHPexes.<init>(PHPexes.java:98)
+	at org.eclipse.php.internal.debug.core.preferences.PHPexes.getInstance(PHPexes.java:90)
+	at org.eclipse.php.internal.debug.core.debugger.AbstractDebuggerSettingsProvider.hookSettings(AbstractDebuggerSettingsProvider.java:209)
+	at org.eclipse.php.internal.debug.core.debugger.AbstractDebuggerSettingsProvider.load(AbstractDebuggerSettingsProvider.java:278)
+	at org.eclipse.php.internal.debug.core.debugger.DebuggerSettingsProviderRegistry.fetchProviders(DebuggerSettingsProviderRegistry.java:154)
+	at org.eclipse.php.internal.debug.core.debugger.DebuggerSettingsProviderRegistry.readFromExtensionPoint(DebuggerSettingsProviderRegistry.java:109)
+	at org.eclipse.php.internal.debug.core.debugger.DebuggerSettingsProviderRegistry.getProviders(DebuggerSettingsProviderRegistry.java:83)
+	at org.eclipse.php.internal.debug.core.debugger.DebuggerSettingsProviderRegistry.getProvider(DebuggerSettingsProviderRegistry.java:74)
+	at org.eclipse.php.internal.debug.core.debugger.DebuggerSettingsManager.<init>(DebuggerSettingsManager.java:173)
+	at org.eclipse.php.internal.debug.core.debugger.DebuggerSettingsManager.<clinit>(DebuggerSettingsManager.java:40)
+	at org.eclipse.php.internal.debug.core.PHPDebugPlugin$PostStart.perform(PHPDebugPlugin.java:117)
+	at org.eclipse.php.internal.debug.core.PHPDebugPlugin$PostStart.access$0(PHPDebugPlugin.java:103)
+	at org.eclipse.php.internal.debug.core.PHPDebugPlugin$PostStart$1.run(PHPDebugPlugin.java:81)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2015-07-22 12:40:08.128
+!MESSAGE Unexpected interrupt while waiting on ECF browse request
+!STACK 0
+java.lang.InterruptedException
+	at java.lang.Object.wait(Native Method)
+	at org.eclipse.core.internal.jobs.Semaphore.acquire(Semaphore.java:39)
+	at org.eclipse.core.internal.jobs.JobManager.join(JobManager.java:909)
+	at org.eclipse.core.internal.jobs.InternalJob.join(InternalJob.java:341)
+	at org.eclipse.core.runtime.jobs.Job.join(Job.java:458)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.waitOnSelf(FileInfoReader.java:76)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.getRemoteFiles(FileInfoReader.java:112)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.getRemoteFile(FileInfoReader.java:127)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.getLastModified(FileInfoReader.java:132)
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.getLastModified(RepositoryTransport.java:229)
+	at org.eclipse.equinox.internal.p2.discovery.compatibility.util.TransportUtil.verifyAvailability(TransportUtil.java:135)
+	at org.eclipse.equinox.internal.p2.discovery.compatibility.SiteVerifier$VerifyUpdateSiteJob.call(SiteVerifier.java:135)
+	at org.eclipse.equinox.internal.p2.discovery.compatibility.SiteVerifier$VerifyUpdateSiteJob.call(SiteVerifier.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2015-07-22 12:40:08.136
+!MESSAGE Unexpected interrupt while waiting on ECF browse request
+!STACK 0
+java.lang.InterruptedException
+	at java.lang.Object.wait(Native Method)
+	at org.eclipse.core.internal.jobs.Semaphore.acquire(Semaphore.java:39)
+	at org.eclipse.core.internal.jobs.JobManager.join(JobManager.java:909)
+	at org.eclipse.core.internal.jobs.InternalJob.join(InternalJob.java:341)
+	at org.eclipse.core.runtime.jobs.Job.join(Job.java:458)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.waitOnSelf(FileInfoReader.java:76)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.getRemoteFiles(FileInfoReader.java:112)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.getRemoteFile(FileInfoReader.java:127)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.getLastModified(FileInfoReader.java:132)
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.getLastModified(RepositoryTransport.java:229)
+	at org.eclipse.equinox.internal.p2.discovery.compatibility.util.TransportUtil.verifyAvailability(TransportUtil.java:135)
+	at org.eclipse.equinox.internal.p2.discovery.compatibility.SiteVerifier$VerifyUpdateSiteJob.call(SiteVerifier.java:135)
+	at org.eclipse.equinox.internal.p2.discovery.compatibility.SiteVerifier$VerifyUpdateSiteJob.call(SiteVerifier.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2015-07-22 12:40:08.144
+!MESSAGE Unexpected interrupt while waiting on ECF browse request
+!STACK 0
+java.lang.InterruptedException
+	at java.lang.Object.wait(Native Method)
+	at org.eclipse.core.internal.jobs.Semaphore.acquire(Semaphore.java:39)
+	at org.eclipse.core.internal.jobs.JobManager.join(JobManager.java:909)
+	at org.eclipse.core.internal.jobs.InternalJob.join(InternalJob.java:341)
+	at org.eclipse.core.runtime.jobs.Job.join(Job.java:458)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.waitOnSelf(FileInfoReader.java:76)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.getRemoteFiles(FileInfoReader.java:112)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.getRemoteFile(FileInfoReader.java:127)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.getLastModified(FileInfoReader.java:132)
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.getLastModified(RepositoryTransport.java:229)
+	at org.eclipse.equinox.internal.p2.discovery.compatibility.util.TransportUtil.verifyAvailability(TransportUtil.java:135)
+	at org.eclipse.equinox.internal.p2.discovery.compatibility.SiteVerifier$VerifyUpdateSiteJob.call(SiteVerifier.java:135)
+	at org.eclipse.equinox.internal.p2.discovery.compatibility.SiteVerifier$VerifyUpdateSiteJob.call(SiteVerifier.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
