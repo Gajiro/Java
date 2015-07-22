@@ -2,7 +2,6 @@ import lib.Input;
 
 public class okodukai {
 	
-
 		public static void main (String[] args){
 			int vote, ok = 0, ng = 0;
 			while((vote = Input.getInt()) != 0){
