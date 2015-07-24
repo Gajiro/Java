@@ -1,5 +1,3 @@
-
-
 import lib.Input;
 
 public class Create {
@@ -35,7 +33,7 @@ public class Create {
 				i++;
 			}
 	
-	
+	}
 	
 	
 

@@ -16,17 +16,18 @@ public class okodukai {
 			int operate = 0;
 			int i = 0;
 
+			System.out.println("-----御小遣帳-----");
+			System.out.println("<<今月の目標：" + subject + ">>");
+			if(subject == ""){
+				System.out.println("今月の目標を設定してください");
+				subject = Input.getString();
+			}
+
+
 			while(operate != 5){
-				System.out.println("-----御小遣帳-----");
-				System.out.println("<<今月の目標：" + subject + ">>");
 				System.out.println("操作を選んでください 入力[1] 参照[2] 更新[3] 消去[4] 終了[5]");
 				operate = Input.getInt();
 
-
-				if(subject == ""){
-					System.out.println("今月の目標を設定してください");
-					subject = Input.getString();
-				}
 
 				if(operate == 1){
 					int confirm = 0;
