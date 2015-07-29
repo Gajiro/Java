@@ -8,7 +8,6 @@ import lib.update;
 public class okodukai001 {
 	public static void main (String[] args){
 
-		int or = 0;
 		int operate = 0;
 
 		subject subject00 = new subject();
