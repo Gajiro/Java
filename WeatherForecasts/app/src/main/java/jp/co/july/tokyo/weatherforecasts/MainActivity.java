@@ -1,5 +1,6 @@
 package jp.co.july.tokyo.weatherforecasts;
 
+import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
@@ -7,6 +8,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
+
 import java.io.IOException;
 
 
@@ -14,6 +16,7 @@ import java.io.IOException;
 public class MainActivity extends AppCompatActivity {
 
     private TextView textView;
+    private Handler handler;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,17 +24,33 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         textView = (TextView) findViewById(R.id.tv_main);
-        
-        try{
-            String data = WeatherApi.getWeather(this, "400040");
-            textView.setText(data);
-        }catch (IOException e) {
-            Toast.makeText(this, "IOException is occured", Tost.LENGTH_SHORT).show();
-            
-        }
-        
+        handler = new Handler();
+        Thread thread = new Thread(){
+            @Override
+            public void run(){
+                try{
+                    final String data = WeatherApi.getWeather(MainActivity.this, "130010");
+                    handler.post(new Runnable() {
+                        @Override
+                        public void run () {
+                            textView.setText(data);
+                        }
+                    });
+                    textView.setText(data);
+                }catch (final IOException e){
+                    handler.post(new Runnable() {
+                        @Override
+                        public void run () {
+                            Toast.makeText(MainActivity.this, "IOException is occured.", Toast.LENGTH_SHORT).show();
+                        }
+                    });
+                }
+            }
+
+        };
+        thread.start();
+
     }
-    
    
     
     
