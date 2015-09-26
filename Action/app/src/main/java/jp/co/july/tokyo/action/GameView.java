@@ -5,6 +5,9 @@ import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.graphics.Canvas;
 import android.view.MotionEvent;
+import android.graphics.Color;
+import android.view.SurfaceHolder;
+import android.view.SurfaceView;
 
 
 import android.view.View;
@@ -12,7 +15,71 @@ import android.view.View;
 /**
  * Created by kato.yuzo on 2015/09/17.
  */
-public class GameView extends View implements Droid.Callback {
+public class GameView extends SurfaceView implements Droid.Callback, SurfaceHolder.Callback{
+
+
+    private static final long FPS = 60;
+
+    private class DrawThread extends Thread{
+        boolean isFinished;
+
+        @Override
+        public void run(){
+            SurfaceHolder holder = getHolder();
+
+            while(!isFinished){
+                Canvas canvas = holder.lockCanvas();
+                if(canvas != null){
+                    drawGame(canvas);
+                    holder.unlockCanvasAndPost(canvas);
+                }
+
+                try{
+                    sleep(1000/ FPS);
+                }catch(InterruptedException e){}
+            }
+        }
+
+
+    }
+
+    private DrawThread drawThread;
+
+    public void startDrawThread(){
+        stopDrawThread();
+
+        drawThread = new DrawThread();
+        drawThread.start();
+    }
+
+    public boolean stopDrawThread(){
+        if(drawThread == null){
+            return false;
+        }
+        drawThread.isFinished = true;
+        drawThread = null;
+        return true;
+
+    }
+
+    @Override
+    public void surfaceCreated(SurfaceHolder holder){
+        startDrawThread();
+    }
+
+
+    @Override
+    public void surfaceChanged(SurfaceHolder holder, int format, int width, int height){
+    }
+
+
+    @Override
+    public void surfaceDestroyed(SurfaceHolder holder){
+        stopDrawThread();
+    }
+
+
+    private static final int GROUND_MOVE_TO_LEFT = 10;
 
     private static final int MAX_TOUCH_TIME = 500;
 
@@ -52,13 +119,17 @@ public class GameView extends View implements Droid.Callback {
 
     private Droid droid;
 
+
     public GameView(Context context){
         super(context);
+        getHolder().addCallback(this);
     }
 
-    public void onDraw (Canvas canvas){
+    public void drawGame (Canvas canvas){
         int width = canvas.getWidth();
         int height = canvas.getHeight();
+
+        canvas.drawColor(Color.WHITE);
 
         if(droid == null){
             Bitmap bitmap = BitmapFactory.decodeResource(getResources(), R.drawable.droid);
@@ -71,12 +142,19 @@ public class GameView extends View implements Droid.Callback {
         }
         droid.move();
         droid.draw(canvas);
-        ground.draw(canvas);
 
-        invalidate();
+        ground.move(GROUND_MOVE_TO_LEFT);
+        ground.draw(canvas);
     }
     @Override
     public int getDistanceFromGround(Droid droid){
+
+        boolean horizontal = !(droid.rect.left >= ground.rect.right
+                || droid.rect.right <= ground.rect.left );
+        if (!horizontal){
+            return Integer.MAX_VALUE;
+
+        }
         return ground.rect.top - droid.rect.bottom;
 
     }
