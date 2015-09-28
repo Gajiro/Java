@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ListPreference
+        android:key="key_fraction"
+        android:title="@string/fraction"
+        android:dialogTitle="@string/dlg_fraction_title"
+        android:entries="@array/list_fraction"
+        android:entryValues="@array/list_fraction_val"
+        android:defaultValue="500"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent" />
+
+    <CheckBoxPreference
+        android:key="key_roundup"
+        android:title="@string/roundup_title"
+        android:defaultValue="false"
+        android:layout_height="match_parent"
+        android:layout_width="wrap_content" />
+
+
+
+
+</LinearLayout>
