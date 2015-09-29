@@ -14,6 +14,7 @@
     <string name="yenyen2">2</string>
 
     <!-- 設定画面用 -->
+    <string name="setting">設定</string>
     <string name="fraction">端数</string>
     <string name="dlg_fraction_title">端数を選択してください</string>
     <string name="roundup_title">端数切り上げ</string>
