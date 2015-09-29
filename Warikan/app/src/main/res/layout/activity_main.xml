@@ -7,7 +7,8 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context=".MainActivity" >
+    tools:context=".MainActivity"
+    android:weightSum="1">
 
     <!-- 人数の入力行 -->
     <LinearLayout
@@ -78,11 +79,30 @@
             android:layout_height="wrap_content"
             android:text="@string/result"
             android:textSize="50sp" />
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/yen"
-            android:textAppearance="?android:attr/textAppearanceLarge" />
+            android:text="@string/yenyen"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:lineSpacingExtra="40sp"
+            />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="52dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/yenyen2"
+                android:id="@+id/textView"
+                android:gravity="bottom"
+                android:textColor="#000000"/>
+        </LinearLayout>
+
     </LinearLayout>
 
 </LinearLayout>
