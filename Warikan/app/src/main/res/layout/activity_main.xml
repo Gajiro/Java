@@ -11,6 +11,7 @@
     android:weightSum="1">
 
     <!-- 人数の入力行 -->
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -18,6 +19,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+
             android:text="@string/numPeople"
             android:textAppearance="?android:attr/textAppearanceLarge" />
         <EditText
@@ -25,7 +27,8 @@
             android:layout_width="0dip"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:inputType="number" />
+            android:inputType="number"
+            />
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -48,7 +51,8 @@
             android:layout_width="0dip"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:inputType="number" />
+            android:inputType="number"
+            />
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -105,4 +109,44 @@
 
     </LinearLayout>
 
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#000000"
+        tools:context=".MainActivity">
+
+    <jp.co.july.tokyo.warikan.TestView
+        android:id="@+id/test_view"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="90dp"
+        android:layout_width="250dp"
+        android:layout_height="250dp" />
+
+    <TextView
+        android:text="
+        abcd123456789\n
+        cdefg123456789\n
+        \n
+        3456978\n
+        hijklmnopq012698745\n
+        rst4565848uvwx\n"
+        android:textColor="#cccccc"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/button"
+        android:text="Button"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="370dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    </RelativeLayout>
+
 </LinearLayout>
+
+
+

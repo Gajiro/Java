@@ -1,7 +1,9 @@
 package jp.co.july.tokyo.warikan;
 
+import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.graphics.RectF;
 import android.preference.PreferenceManager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -12,7 +14,15 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
+import android.app.Activity;
+import android.os.Bundle;
+import android.widget.Button;
+
 public class MainActivity extends AppCompatActivity {
+
+    private TestView testView;
+
+
 
         @Override
         protected void onCreate(Bundle savedInstanceState) {
@@ -37,12 +47,20 @@ public class MainActivity extends AppCompatActivity {
                     // 入力内容を取得
                     String strNum = etxtNum.getText().toString();
                     String strMoney = etxtMoney.getText().toString();
+                    //いきなりボタン押すとnull*nullで落ちるので入力を邪魔せずに0を入れる
+                    if(strNum.equals("") || strMoney.equals("")){
+                        strNum   = "0";
+                        strMoney = "0";
+                    }
+
 
                     // 数値に変換
                     int num   = Integer.parseInt(strNum);
                     int money = Integer.parseInt(strMoney);
 
-                    // 割り勘計算
+                    RectF rect = new RectF(100, 100, num, money);
+
+                    // 計算
                     int result = money * num;
 
                     // 結果表示用テキストに設定
@@ -73,4 +91,6 @@ public class MainActivity extends AppCompatActivity {
 
         return super.onOptionsItemSelected(item);
     }
+
+
 }
