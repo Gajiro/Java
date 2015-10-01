@@ -3,10 +3,14 @@ package jp.co.july.tokyo.warikan;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.graphics.Canvas;
+import android.graphics.Color;
+import android.graphics.Paint;
 import android.graphics.RectF;
 import android.preference.PreferenceManager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.AttributeSet;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -19,8 +23,11 @@ import android.os.Bundle;
 import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
+     Globals globals;
 
-    private TestView testView;
+
+
+    //private TestView testView; 意味なし
 
 
 
@@ -28,6 +35,8 @@ public class MainActivity extends AppCompatActivity {
         protected void onCreate(Bundle savedInstanceState) {
             super.onCreate(savedInstanceState);
             setContentView(R.layout.activity_main);
+
+
 
             Button btn = (Button)findViewById(R.id.btnCalc);
             btn.setOnClickListener(new View.OnClickListener() {
@@ -58,10 +67,19 @@ public class MainActivity extends AppCompatActivity {
                     int num   = Integer.parseInt(strNum);
                     int money = Integer.parseInt(strMoney);
 
-                    RectF rect = new RectF(100, 100, num, money);
+                    globals = (Globals)getApplication();
+                    globals.init();
+
+                     globals.sideA = num;
+                     globals.sideB = money;
+
+
+
+
+                    //RectF rect = new RectF(100, 100, num, money);
 
                     // 計算
-                    int result = money * num;
+                    int result = globals.sideB * globals.sideA;
 
                     // 結果表示用テキストに設定
                     txtResult.setText(Integer.toString(result));
@@ -91,6 +109,5 @@ public class MainActivity extends AppCompatActivity {
 
         return super.onOptionsItemSelected(item);
     }
-
 
 }

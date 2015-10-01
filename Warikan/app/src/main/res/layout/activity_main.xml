@@ -125,13 +125,7 @@
         android:layout_height="250dp" />
 
     <TextView
-        android:text="
-        abcd123456789\n
-        cdefg123456789\n
-        \n
-        3456978\n
-        hijklmnopq012698745\n
-        rst4565848uvwx\n"
+        android:text=""
         android:textColor="#cccccc"
         android:layout_marginTop="20dp"
         android:layout_width="wrap_content"
